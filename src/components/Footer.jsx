@@ -3,7 +3,7 @@ import { FaFacebook, FaFacebookF, FaGooglePlusG, FaInstagram, FaLinkedin, FaTwit
 
 const Footer = () => {
     return (
-        <div className="footer flex-col md:flex-row items-center justify-center md:justify-between px-10 py-8 md:p-20 border-t-2 border-gray-600 mt-20" >
+        <div className="footer flex flex-col md:flex-row items-center justify-center md:justify-between px-10 py-8 md:p-20 border-t-2 border-gray-600 mt-20" >
             <div className="md:w-2/5">
                 <img src="./logo.svg" alt='logo' className='mx-auto md:mx-0 py-3' />
                 <p className="hidden md:block text-sm mt-3">©️ 2019 PVV Infra I Designed & Developed by</p>
@@ -26,8 +26,8 @@ const Footer = () => {
 
                 </div>
             </div>
-            <p className="md:hidden block text-xs text-gray-600 text-center mt-3">©️ 2019 PVV Infra I Designed & Developed by</p>
-            <p className="md:hidden block text-xs text-gray-600 text-center">TheBrandWorks</p>
+            <p className="md:hidden block text-xs md:text-sm text-gray-600 text-center mt-3">©️ 2019 PVV Infra I Designed & Developed by</p>
+            <p className="md:hidden block text-xs md:text-sm text-gray-600 text-center">TheBrandWorks</p>
 
         </div >
     )

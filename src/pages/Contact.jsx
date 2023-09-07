@@ -4,6 +4,7 @@ import ContactForm from '../components/ContactForm';
 import ContactCard from '../components/ContactCard';
 import TeamComponent from '../components/TeamComponent';
 import Footer from '../components/Footer';
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 const Contact = () => {
     const bg = './bg-city.png';
     return (
@@ -20,8 +21,12 @@ const Contact = () => {
                             <p className="font-roboto text-xl mt-2 md:w-1/2">Complete the form and we'll follow
                                 up fast within one Business Day</p>
                         </div>
-                        <div className="flex flex-col flex-auto">
-                            <p className="text-xl">Prefer email</p>
+                        <div className="flex flex-col justify-end md:mt-24">
+                            <p className="text-xl">Prefer email <span className='text-cyan-600 font-semibold'>pvVinframai123.co</span></p>
+                            <div className="flex items-center mt-3">
+                                <p className="font-semibold text-xl text-gray-700">Social Links </p> <FaInstagram className='mx-2 text-md' /> <FaFacebookF className='mx-2 text-md' /> <FaYoutube className='mx-2 text-md' /> <FaTwitter className='mx-2 text-md' />
+
+                            </div>
                         </div>
                     </div>
                     <div className="md:w-1/2 w-full px-3 md:p-3 box-border">

@@ -10,7 +10,7 @@ const TeamComponent = () => {
                     <div className="hidden md:flex h-28 w-full bg-cyan-700"></div>
                     <div className="divimg flex flex-col md:absolute top-0 right-0">
                         <img src="./images/person.png" alt="person" className='  w-60 h-auto' />
-                        <p className="font-bold text-center text-xs md:text-md">ZAMEER AHAMMED KOTTALA</p>
+                        <p className="font-bold text-center text-xs md:text-sm mt-2">ZAMEER AHAMMED KOTTALA</p>
                         <p className='font-light text-center text-gray-500 text-xs md:text-md'>EXECUTIVE DIRECTOR</p>
                     </div>
                 </div>
@@ -19,7 +19,7 @@ const TeamComponent = () => {
                     <div className="hidden md:flex h-28 w-full bg-cyan-700"></div>
                     <div className="divimg flex flex-col md:absolute top-0 left-0">
                         <img src="./images/person2.png" alt="person" className='  w-60 h-auto' />
-                        <p className="font-bold text-center text-xs md:text-md">FAYAZ VAKKAL</p>
+                        <p className="font-bold text-center text-xs md:text-sm mt-2">FAYAZ VAKKAL</p>
                         <p className='font-light text-gray-500 text-center text-xs md:text-md'>INDEPENDENT DIRECTOR</p>
                     </div>
 
